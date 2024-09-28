@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/* Header Section */
+.header {
+    background-color: #636161;
+    height: 100px;
+}
+.container{
+    padding: 40px;
+}
+
+.navigation{
+    display: flex;
+    height: 100px;
+    gap: 50px; 
+}
+
+/* Navigation Section */
+.navigation-left {
+    flex: 3;
+    display: flex;
+    align-items: end;
+}
+.arrow {
+
+        font-size: 40px;     
+        font-weight: bold;   
+        color: gray;         
+        margin-left: auto;  
+}
+
+.navigation-right{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#n1 {
+    background-color: #636161;
+}
+
+.nav-item-left{
+    background-color: #ccc;
+    width: 18%;
+    height: 40px;
+    margin-right: 10px;
+}
+.nav-item-right{
+    background-color: #ccc;
+    width: 10%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.main{
+    display: flex;
+    height: 400px;
+    gap: 50px; 
+}
+
+.left-main{
+    background-color: #636161;
+    flex: 3;
+
+}
+
+.right-main{
+    background-color: #acacac;
+flex:1;
+}
+
+.main-content{
+    display: flex;
+    height: 600px;
+    gap: 50px; 
+    margin-top: 40px;
+}
+
+.left-main-content{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  
+    height: 575px;
+
+}
+
+.item10{
+    width: calc(18% - 10px); 
+    height: 200px; 
+    justify-content: center;
+    
+}
+
+
+.square {
+    background-color: #ccc;
+    height: 180px; /* Increase height */
+    margin-bottom: 0; /* Remove margin to stick the gray bar right underneath */
+}
+
+.b{
+    background-color: #e4e2e2; 
+    height: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+
+/* Bar chart style under each square */
+.bar-chart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px; 
+}
+
+
+.bar:nth-child(1) {
+    width: 70%; 
+    height: 10px; /* Set a specific height for the bar */
+    background-color: #e4e2e2; 
+    margin-right: 10px; /* Space between the bars */
+}
+
+/* Second bar (30% width) */
+.bar:nth-child(2) {
+    width: 30%;
+    height: 10px; /* Set a specific height for the bar */
+    background-color: #e4e2e2; 
+}
+
+
+.right-main-content{
+   flex:1;
+   display: flex;
+   flex-direction: column; 
+   height: 550px;
+}
+
+.h{
+    background-color: #636161;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Bar chart style under each square */
+.chart {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px; 
+    margin-bottom: 30px;
+}
+
+
+.box:nth-child(1) {
+    width: 30%; 
+    height: 120px; /* Set a specific height for the bar */
+    background-color: #ccc;
+    margin-right: 10px; /* Space between the bars */
+}
+
+/* Second bar (30% width) */
+.box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 120px; /* Set a specific height for the bar */
+justify-content: space-between;}
+
+.bar2{
+    background-color: #e4e2e2; 
+    height: 10px;
+
+}
+.h2{
+    background-color: #636161;
+    height: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+.b2{
+    background-color: #e4e2e2; 
+    height: 10px;
+    margin-bottom: 10px;
+
+
+}
